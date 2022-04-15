@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 //directorio publico
-app.use(express.static('public'));
+app.use(express.static('client'));
 
 //Routes
 app.use('/api/todos', require('./routes/todoRoutes'))
